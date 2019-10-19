@@ -18,10 +18,9 @@ gc_collect_interval_sec = 1700
 post_status_interval_sec = 600
 
 # WIFI
-wifi_ssid = "PLACEHOLDER"
-wifi_password = "PLACEHOLDER"
+wifi_ssid = "tllllvllllp"
+wifi_password = "Bwnnibsinnwf0"
 wifi_connection_check_interval_sec = 1
-wifi_ip = "PLACEHOLDER"
 
 # MQTT
 mqtt_connection_check_interval_sec = 1
@@ -33,10 +32,10 @@ mqtt_queue_size = 10
 mqtt_checkout_payload = ujson.dumps(unit_id_dict)
 
 # MQTT - Credentials
-mqtt_server = "PLACEHOLDER"
-mqtt_port = "PLACEHOLDER"
-mqtt_user = "PLACEHOLDER"
-mqtt_password = "PLACEHOLDER"
+mqtt_server = "192.168.0.206"
+mqtt_port = "8883"
+mqtt_user = "tlvlp-iot-mcu"
+mqtt_password = "Vm5c5o67oAWXBxwPIFwPAuL8VytC7F_7"
 
 # MQTT - topics
 mqtt_topic_status_request = "/global/status_request"
